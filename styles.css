@@ -50,7 +50,13 @@ nav ul li a:hover{
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
-        cursor: pointer;
+       
+}
+.button:hover{
+  background-color: transparent;
+  border: solid darkorange;
+  cursor: pointer;
+  color: wheat;
 }
 .but{
     background-color: transparent;
@@ -62,9 +68,11 @@ nav ul li a:hover{
     font-size: 16px;
     margin: 4px 2px;
     border: solid 1px white;
-    color: white;
-      
-      
+    color: white;      
+}
+.but:hover{
+  background-color: transparent;
+  border: solid  yellow;
 }
 .topic{
     display: flex;
@@ -152,8 +160,15 @@ nav ul li a:hover{
   }
   .images{
     display: flex;
-    /* flex-wrap: wrap; */
+   
   }
+  /* .image1{
+    border: solid transparent;
+    width: 40%;
+    height: 30%;
+    background: linear-gradient(#056e6b, #18c9da, #086b79);
+  } */
+
   .container{
     display: flex;
     flex-wrap: wrap;
@@ -285,6 +300,12 @@ nav ul li a:hover{
     flex-direction: column;
     
 }
+.logo{
+  width: 20%;
+}
+.image img{
+  width: 100%;
+}
 .search-bar {
   display: flex;
   flex-direction: column;
@@ -300,6 +321,16 @@ nav ul li a:hover{
 .icons{
   display: flex;
   flex-direction: column;
+  width: 40%;
+  gap: 2rem;
+  margin-left: 70px; 
+}
+.con{
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 20vh;
+  text-align: center;
 }
 .images{
   display: flex;
